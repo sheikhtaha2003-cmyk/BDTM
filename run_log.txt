@@ -1,0 +1,131 @@
+Run started 19/10/2026 14:56:42.85 
+Python 3.14.8
+  WARNING: The scripts f2py.exe and numpy-config.exe are installed in 'C:\Users\pc\AppData\Roaming\Python\Python314\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script idna.exe is installed in 'C:\Users\pc\AppData\Roaming\Python\Python314\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts fonttools.exe, pyftmerge.exe, pyftsubset.exe and ttx.exe are installed in 'C:\Users\pc\AppData\Roaming\Python\Python314\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script normalizer.exe is installed in 'C:\Users\pc\AppData\Roaming\Python\Python314\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Page  1: 20 books scraped (running total 20)
+Page  2: 20 books scraped (running total 40)
+Page  3: 20 books scraped (running total 60)
+Page  4: 20 books scraped (running total 80)
+Page  5: 20 books scraped (running total 100)
+Page  6: 20 books scraped (running total 120)
+Page  7: 20 books scraped (running total 140)
+Page  8: 20 books scraped (running total 160)
+Page  9: 20 books scraped (running total 180)
+Page 10: 20 books scraped (running total 200)
+Page 11: 20 books scraped (running total 220)
+Page 12: 20 books scraped (running total 240)
+Page 13: 20 books scraped (running total 260)
+Page 14: 20 books scraped (running total 280)
+Page 15: 20 books scraped (running total 300)
+Page 16: 20 books scraped (running total 320)
+Page 17: 20 books scraped (running total 340)
+Page 18: 20 books scraped (running total 360)
+Page 19: 20 books scraped (running total 380)
+Page 20: 20 books scraped (running total 400)
+Page 21: 20 books scraped (running total 420)
+Page 22: 20 books scraped (running total 440)
+Page 23: 20 books scraped (running total 460)
+Page 24: 20 books scraped (running total 480)
+Page 25: 20 books scraped (running total 500)
+Page 26: 20 books scraped (running total 520)
+Page 27: 20 books scraped (running total 540)
+Page 28: 20 books scraped (running total 560)
+Page 29: 20 books scraped (running total 580)
+Page 30: 20 books scraped (running total 600)
+Page 31: 20 books scraped (running total 620)
+Page 32: 20 books scraped (running total 640)
+Page 33: 20 books scraped (running total 660)
+Page 34: 20 books scraped (running total 680)
+Page 35: 20 books scraped (running total 700)
+Page 36: 20 books scraped (running total 720)
+Page 37: 20 books scraped (running total 740)
+Page 38: 20 books scraped (running total 760)
+Page 39: 20 books scraped (running total 780)
+Page 40: 20 books scraped (running total 800)
+Page 41: 20 books scraped (running total 820)
+Page 42: 20 books scraped (running total 840)
+Page 43: 20 books scraped (running total 860)
+Page 44: 20 books scraped (running total 880)
+Page 45: 20 books scraped (running total 900)
+Page 46: 20 books scraped (running total 920)
+Page 47: 20 books scraped (running total 940)
+Page 48: 20 books scraped (running total 960)
+Page 49: 20 books scraped (running total 980)
+Page 50: 20 books scraped (running total 1000)
+
+First rows of the dataset:
+                                   Title  Price  Rating Availability                                                                               Product_URL  Page
+0                   A Light in the Attic  51.77       3     In stock                 https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html     1
+1                     Tipping the Velvet  53.74       1     In stock                    https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html     1
+2                             Soumission  50.10       1     In stock                            https://books.toscrape.com/catalogue/soumission_998/index.html     1
+3                          Sharp Objects  47.82       4     In stock                         https://books.toscrape.com/catalogue/sharp-objects_997/index.html     1
+4  Sapiens: A Brief History of Humankind  54.23       5     In stock  https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html     1
+
+Columns: ['Title', 'Price', 'Rating', 'Availability', 'Product_URL', 'Page'] | Rows: 1000
+Saved competitor_books.csv
+
+======================================================================
+INTELLIGENCE REPORT - 1000 books from 50 pages
+======================================================================
+
+1. Most expensive book:
+   The Perfect Play (Play by Play #1) - £59.99 (3 stars)
+
+2. Cheapest book:
+   An Abundance of Katherines - £10.00 (5 stars)
+
+3. Average book price: £35.07
+
+4. Books with a 5-star rating: 196 of 1000
+
+5. Books in stock: 100.0%
+
+6. Top 5 highest-rated books (ties broken by lowest price):
+   1. An Abundance of Katherines - 5 stars, £10.00
+   2. Greek Mythic History - 5 stars, £10.23
+   3. The Power Greens Cookbook: 140 Delicious Superfood Recipes - 5 stars, £11.05
+   4. Dear Mr. Knightley - 5 stars, £11.21
+   5. The Darkest Corners - 5 stars, £11.33
+
+7. Cheapest 5-star book:
+   An Abundance of Katherines - £10.00
+
+BONUS 3. Books per star rating:
+   1 stars: 226
+   2 stars: 196
+   3 stars: 203
+   4 stars: 179
+   5 stars: 196
+
+EVIDENCE FOR THE RECOMMENDATION
+   Price by star rating:
+        count   mean  median
+   Rating                      
+   1         226  34.56   34.77
+   2         196  34.81   36.22
+   3         203  34.69   33.78
+   4         179  36.09   37.80
+   5         196  35.37   36.90
+   Correlation between price and rating: 0.028
+   5-star books under £20: 42
+
+CEO £100 CHALLENGE - optimal selection (9 books)
+   1. An Abundance of Katherines - £10.00, 5 stars
+   2. Greek Mythic History - £10.23, 5 stars
+   3. The Power Greens Cookbook: 140 Delicious Superfood Recipes - £11.05, 5 stars
+   4. Dear Mr. Knightley - £11.21, 5 stars
+   5. The Darkest Corners - £11.33, 5 stars
+   6. Naturally Lean: 125 Nourishing Gluten-Free, Plant-Based Recipes--All Under 300 Calories - £11.38, 5 stars
+   7. Fruits Basket, Vol. 2 (Fruits Basket #2) - £11.64, 5 stars
+   8. Old School (Diary of a Wimpy Kid #10) - £11.83, 5 stars
+   9. The Origin of Species - £10.01, 4 stars
+   Total cost: £98.68  |  Total rating score: 44
+
+Chart saved to rating_counts.png
+EXIT_CODE 0 
